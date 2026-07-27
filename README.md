@@ -1,6 +1,6 @@
 # mi-perfil
 
-App creada con [Expo](https://expo.dev/) que muestra una tarjeta de perfil (avatar, nombre, rol y una lista de habilidades). Proyecto de práctica para dominar el flujo básico de Expo: crear proyecto, correr en dispositivo real y editar con Fast Refresh.
+Es una app creada con Expo que muestra una tarjeta de perfil (avatar, nombre, rol y una lista de 3 habilidades). Proyecto de práctica para dominar el flujo básico de Expo: crear proyecto, correr en dispositivo real y editar con Fast Refresh.
 
 ## Vista previa
 
@@ -52,23 +52,3 @@ Para personalizar la tarjeta, edita en `App.js`:
 - `HABILIDADES`: arreglo con las 3 habilidades mostradas.
 - El texto dentro de los componentes `<Text>` para nombre y rol.
 - La propiedad `uri` del `<Image>` para cambiar el avatar.
-
-## Estructura principal
-
-```
-mi-perfil/
-├── App.js          # Componente principal con la tarjeta de perfil
-├── app.json        # Configuración de la app Expo
-├── index.js        # Punto de entrada
-├── assets/         # Íconos y splash screen
-└── package.json
-```
-
-## Scripts disponibles
-
-| Comando            | Descripción                              |
-|--------------------|-------------------------------------------|
-| `npm start`        | Inicia el servidor de desarrollo de Expo  |
-| `npm run android`  | Abre la app en un emulador/dispositivo Android |
-| `npm run ios`      | Abre la app en un simulador iOS (requiere macOS) |
-| `npm run web`      | Corre la app en el navegador              |
