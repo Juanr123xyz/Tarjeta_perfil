@@ -32,10 +32,6 @@ App creada con Expo que muestra una tarjeta de perfil (avatar, nombre, rol y una
 
 5. La app se abrirá en el teléfono mostrando la tarjeta de perfil.
 
-## Captura de pantalla
-
-![Captura de la app](./captura.png)
-
 ## Estructura principal
 
 ```
