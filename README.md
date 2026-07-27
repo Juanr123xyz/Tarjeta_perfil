@@ -1,4 +1,4 @@
-# mi-perfil
+# Tarjeta_perfil
 
 Es una app creada con Expo que muestra una tarjeta de perfil (avatar, nombre, rol y una lista de 3 habilidades). Proyecto de práctica para dominar el flujo básico de Expo: crear proyecto, correr en dispositivo real y editar con Fast Refresh.
 
