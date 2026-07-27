@@ -1,54 +1,48 @@
-# Tarjeta_perfil
+# mi-perfil
 
-Es una app creada con Expo que muestra una tarjeta de perfil (avatar, nombre, rol y una lista de 3 habilidades). Proyecto de práctica para dominar el flujo básico de Expo: crear proyecto, correr en dispositivo real y editar con Fast Refresh.
-
-## Vista previa
-
-La tarjeta incluye:
-
-- Avatar circular
-- Nombre y rol
-- 3 habilidades en forma de "pills"
+App creada con Expo que muestra una tarjeta de perfil (avatar, nombre, rol y una lista de habilidades).
 
 ## Requisitos previos
 
 - Node.js 20 o superior (`node -v`)
-- App **Expo Go** instalada en tu teléfono (Android o iOS)
-- Cuenta gratuita en [expo.dev](https://expo.dev/) (opcional para correr localmente, necesaria para algunos flujos de publicación)
+- App **Expo Go** instalada en el teléfono (Android o iOS)
 
 ## Cómo correr el proyecto
 
 1. Clona el repositorio:
 
-   ```bash
-   git clone <url-del-repositorio>
+```bash
+   git clone https://github.com/tu-usuario/mi-perfil.git
    cd mi-perfil
-   ```
+```
 
 2. Instala las dependencias:
 
-   ```bash
+```bash
    npm install
-   ```
+```
 
 3. Inicia el servidor de desarrollo:
 
-   ```bash
+```bash
    npx expo start
-   ```
+```
 
-4. Escanea el código QR que aparece en la terminal/navegador con la app **Expo Go** desde tu teléfono:
-   - **Android**: abre Expo Go y usa la opción "Scan QR code".
-   - **iOS**: usa la app nativa de Cámara para escanear el QR, que abrirá Expo Go automáticamente.
+4. Escanea el código QR que aparece en la terminal con la app **Expo Go** desde el teléfono.
 
-5. La app se abrirá en tu teléfono mostrando la tarjeta de perfil.
+5. La app se abrirá en el teléfono mostrando la tarjeta de perfil.
 
-## Editar la UI (Fast Refresh)
+## Captura de pantalla
 
-Todo el contenido visual está en `App.js`. Al guardar cambios en ese archivo mientras `npx expo start` está corriendo, la pantalla en tu teléfono se actualiza automáticamente gracias a **Fast Refresh**, sin perder el estado de la app.
+![Captura de la app](./captura.png)
 
-Para personalizar la tarjeta, edita en `App.js`:
+## Estructura principal
 
-- `HABILIDADES`: arreglo con las 3 habilidades mostradas.
-- El texto dentro de los componentes `<Text>` para nombre y rol.
-- La propiedad `uri` del `<Image>` para cambiar el avatar.
+```
+mi-perfil/
+├── App.js          # Componente principal con la tarjeta de perfil
+├── app.json        # Configuración de la app Expo
+├── index.js        # Punto de entrada
+├── assets/         # Íconos y splash screen
+└── package.json
+```
