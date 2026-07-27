@@ -1,4 +1,4 @@
-# mi-perfil
+# Tarjeta_perfil
 
 App creada con Expo que muestra una tarjeta de perfil (avatar, nombre, rol y una lista de habilidades).
 
